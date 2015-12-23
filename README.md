@@ -1,6 +1,6 @@
 # Bootstrap-Sass-Minimum-starter-kit 
 
-##### Description
+### Description
 ***
 A simple library for you to add only musts of bootstrap. So that you don't add not required boostrap code and increase the size of your css file and make your site slower. :) 
 
@@ -19,7 +19,7 @@ If yo want to *__remove__* any of these module as well you can do it easily by r
 
 If you wish to *__add__* any other module. Go to [bootstrap sass by twitter](https://www.google.com). Find the respective sass file and include it in your mini kit. :) Don't forget to import it into the _module.scss file.
 
-##### How to use
+### How to use
 ***
 
 Its easy. Just add the libary to your main sass folder and do the following import to your main sass file. 
@@ -28,12 +28,12 @@ Its easy. Just add the libary to your main sass folder and do the following impo
 @import 'bootstrap-sass-mini-starter-kit/_module.scss';
 ```
 
-##### License
+### License
 ***
 
 MIT License
 
-##### Contribution
+### Contribution
 ***
 
 Thanks to Twitter for providing awesome bootstarp and its sass version. :)

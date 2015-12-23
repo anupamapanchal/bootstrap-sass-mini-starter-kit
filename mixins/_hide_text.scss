@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 Dec, 2015, 3:59:13 PM
+    Author     : anupamapanchal
+*/
+// CSS image replacement
+//
+// Heads up! v3 launched with only `.hide-text()`, but per our pattern for
+// mixins being reused as classes with the same name, this doesn't hold up. As
+// of v3.0.1 we have added `.text-hide()` and deprecated `.hide-text()`.
+//
+// Source: https://github.com/h5bp/html5-boilerplate/commit/aa0396eae757
+
+// Deprecated as of v3.0.1 (has been removed in v4)
+@mixin hide-text() {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+// New mixin to use as of v3.0.1
+@mixin text-hide() {
+  @include hide-text;
+}
